@@ -2,16 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Calculadora Celsius - Fahrenheit</title>
   </head>
   <body>
-    <table border>
-      <tr>
-        <td>Fahrenheit</td> <td><input name="Celsius" id="celsius" type="text" /></td> <td><button type="button" onclick="convertirCelsius();return false">Convert to Celsius</button></td>
-      </tr>
-  	  <tr>
-  		  <td>Celsius</td> <td><input name="Fahrenheit" id="fahrenheit" type="text" /></td> <td><button type="button" onclick="convertirFahrenheit();return false">Convert to Fahrenheit</button></td>
-  	  </tr>
-      </tablet>
+    <h1>Calculadora Celsius - Fahrenheit</h1>
+        <tr>
+          <td><input name="celsius" id="celsius" type="text"/></td>
+          <td><button type="button" onclick="convertir('Celsius')">Convertir a Celsius</button><br></td>
+          <td><input name="fahrenheit" id="fahrenheit" type="text"/></td>
+          <td><button type="button" onclick="convertir('Fahrenheit')">Convertir a Fahrenheit</button></td>
+        </tr>
+    <script type ="convertidor_fahrenheit/js/app.js"></script>
   </body>
 </html>
